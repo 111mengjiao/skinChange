@@ -1,0 +1,58 @@
+.bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.bg1{
+	z-index: 10;
+	background-color: #000;
+}
+
+.bg2{
+	background-color: #06c;
+}
+
+.bg3{
+	background-color: #f0c;
+}
+
+.skin-btn-wrap{
+	position: absolute;
+	padding: 4px 10px;
+	border-radius: 20px;
+	line-height: 20px;
+	background-color: #fff;
+	z-index: 11;
+	right: 11px;
+	top: 20px;
+}
+
+.skin-btn-wrap a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#one{
+	background-color: #000;
+}
+
+#two{
+	background-color: #0066CC;
+}
+
+#three{
+	background-color: #f0c;
+}
+
+.bg:target{
+	z-index: 10;
+}
+
+.bg:not(:target){
+	z-index: 0;
+}
